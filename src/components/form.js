@@ -91,7 +91,7 @@ function FeedbackForm() {
                     <Form.Control
                       type="text"
                       required
-                      placeholder="Enter Your Namr"
+                      placeholder="Enter Your Name"
                       value={customerName}
                       onChange={(e) => setCustomerName(e.target.value)}
                     />
