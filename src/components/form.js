@@ -120,6 +120,7 @@ function FeedbackForm() {
                     <Form.Label className="required-field">Phone</Form.Label>
 
                     <Form.Control
+   type="tel"
                       placeholder="99999 99999"
                       value={phNo}
                       onChange={(e) => setPhNo(e.target.value)}
