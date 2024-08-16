@@ -152,7 +152,7 @@ function FeedbackForm() {
                 <Col md={3}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label className="required-field">
-                      Service Served
+                      Services
                     </Form.Label>
                     <Form.Select
                       defaultValue={0}
@@ -160,9 +160,9 @@ function FeedbackForm() {
                       onChange={hanldeServed}
                     >
                       <option>--Select Option --</option>
-                      <option value="Business Awareness">
+                      <option value="Brand Awareness">
                         {" "}
-                        Business Awareness
+                        Brand Awareness
                       </option>
                       <option value="Lead generation">Lead generation</option>
                       <option value="Reels">Reels</option>
@@ -176,7 +176,7 @@ function FeedbackForm() {
                 <Col md={3}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label className="required-field">
-                      Service Complete
+                      Plan Completed
                     </Form.Label>
                     <Form.Select
                       defaultValue={0}
@@ -197,7 +197,7 @@ function FeedbackForm() {
                 <Col md={3}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label className="required-field">
-                      Satisfaction Level
+                      Rate your Experience
                     </Form.Label>
                     <Form.Select
                       defaultValue={0}
@@ -254,7 +254,7 @@ function FeedbackForm() {
               <Row>
                 <Col md={6}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Reherts received and explained</Form.Label>
+                    <Form.Label>Inqueries received and explained</Form.Label>
                     <Form.Control
                       type="text"
                       required
